@@ -9,10 +9,11 @@ public class ExampleScript_c : MonoBehaviour
         Jen,
         Marc,
         Jose,
-        Jessica
+        Jessica,
+        Hallie
     }
 
-    public EName name = EName.Jen;
+    public new EName name = EName.Jen;
 
     public string str_name;
 
@@ -25,6 +26,7 @@ public class ExampleScript_c : MonoBehaviour
             case EName.Marc: Debug.Log("My name is Marc"); break;
             case EName.Jose: Debug.Log("My name is Jose"); break;
             case EName.Jessica: Debug.Log("My name is Jessica"); break;
+            case EName.Hallie: Debug.Log("My name is Hallie"); break;
             default: Debug.Log("My name is something"); break;
         }
     }
